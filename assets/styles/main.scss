@@ -1,0 +1,47 @@
+/*----------------------------------*\
+    Boobot Web Page
+\*----------------------------------*/
+/*
+ TABLE OF CONTENTS
+    01. Variables.......................Imported via gulp and can be found in _vars.scss
+    02. Global..........................The general styles like align-center etc.
+    03. Utilities.......................The general styles like align-center etc.
+    04. Layout..........................The general styles like align-center etc.
+    05. Components......................The general styles like align-center etc.
+*/
+
+/*
+	NextGrid
+*/
+/* Variables */
+@import "../../node_modules/nextgrid/assets/styles/vars";
+
+/*
+	Variables
+*/
+@import "vars";
+
+/*
+	Global
+*/
+@import "global";
+
+/*
+	Utilities
+*/
+
+
+/*
+	Layout
+*/
+@import "layout/header";
+@import "layout/footer";
+
+/*
+	Components
+*/
+
+/* Utilities */
+@import "../../node_modules/nextgrid/assets/styles/utilities/spacings";
+@import "../../node_modules/nextgrid/assets/styles/utilities/element-visibility";
+@import "../../node_modules/nextgrid/assets/styles/utilities/flex-positions";
